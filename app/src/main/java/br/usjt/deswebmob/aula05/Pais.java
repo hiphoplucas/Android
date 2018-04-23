@@ -16,7 +16,7 @@ public class Pais implements Serializable, Comparable {
     private String subRegiao;
     private String demonimo;
     private int populacao;
-    private int area;
+    private double area;
     private String bandeira;
     private double gini;
     private ArrayList<String> idiomas;
@@ -83,11 +83,11 @@ public class Pais implements Serializable, Comparable {
         this.populacao = populacao;
     }
 
-    public int getArea() {
+    public double getArea() {
         return area;
     }
 
-    public void setArea(int area) {
+    public void setArea(double area) {
         this.area = area;
     }
 
