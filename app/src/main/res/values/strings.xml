@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Search Countries</string>
+    <string name="botao_busca">Show</string>
+
+    <string name="continentes">Choose continent</string>
+    <string-array name="continentes_array">
+        <item>Africa</item>
+        <item>Americas</item>
+        <item>Asia</item>
+        <item>Europe</item>
+        <item>Oceania</item>
+    </string-array>
+
+</resources>
